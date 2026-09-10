@@ -1,0 +1,16 @@
+# Node.js dependencies
+node_modules/
+# Build output
+dist/
+# Logs
+logs/
+*.log
+# OS generated files
+.DS_Store
+Thumbs.db
+# Other files
+/screenshots
+PUBLISHING.md
+# Local agent/tooling state (machine-specific, never share)
+.claude/settings.local.json
+.playwright-mcp/

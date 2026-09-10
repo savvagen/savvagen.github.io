@@ -1,0 +1,12 @@
+{
+  "name": "savvagen.github.io",
+  "version": "1.0.0",
+  "description": "Personal site of Savva Henchevskyi — Lead Performance, Reliability & Automation Engineer",
+  "main": "index.js",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://savvagen.github.io/",
+  "private": true
+}

@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Savva Henchevskyi — Lead Performance &amp; Reliability Engineer</title>
+<meta name="description" content="Savva Henchevskyi — Senior/Lead Performance, Reliability &amp; Automation Engineer. 10+ years building distributed load-testing platforms, observability and AI-assisted engineering workflows with K6, Gatling, Locust, Kubernetes, Grafana and Datadog.">
+<meta name="author" content="Savva Henchevskyi">
+<link rel="canonical" href="https://savvagen.github.io/">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Savva Henchevskyi — Lead Performance &amp; Reliability Engineer">
+<meta property="og:description" content="10+ years in Performance Engineering, Reliability and Test Automation. Building load-testing platforms, observability stacks and AI-assisted engineering workflows.">
+<meta property="og:url" content="https://savvagen.github.io/">
+<meta property="og:image" content="https://savvagen.github.io/images/avatar.jpg">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<noscript>
+  <style>
+    /* Without JS the disclosure button can't work, so show the panel outright. */
+    .projects-panel[hidden] { display: block !important; }
+    .disclosure { display: none; }
+    .reveal { opacity: 1; transform: none; }
+  </style>
+</noscript>
+
+<script>
+  // Applied before first paint to avoid a theme flash. Default is dark.
+  (function () {
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) { /* storage blocked — keep the dark default */ }
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#about">Skip to content</a>
+
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<!-- ============================ HEADER ============================ -->
+<header class="site-header" id="header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">SH</span>
+      <span class="brand-text">
+        <strong>Savva Henchevskyi</strong>
+        <small>Performance &amp; Reliability</small>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Section navigation">
+      <a href="#about">About</a>
+      <a href="#career">Career</a>
+      <a href="#services">Services</a>
+      <a href="#ai">AI Adoption</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.6M12 19.4V22M2 12h2.6M19.4 12H22M4.9 4.9l1.9 1.9M17.2 17.2l1.9 1.9M19.1 4.9l-1.9 1.9M6.8 17.2l-1.9 1.9"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+      </button>
+      <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+</header>
+
+<main id="top">
+
+  <!-- ============================ HERO / ABOUT ============================ -->
+  <section class="hero section" id="about">
+    <div class="wrap hero-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="pulse" aria-hidden="true"></span> Available for senior &amp; lead roles</p>
+        <h1>Savva Henchevskyi</h1>
+        <p class="role">Lead / Senior <span class="grad">Performance, Reliability &amp; Automation</span> Engineer</p>
+        <p class="lede">
+          Certified performance engineer with <strong>10+ years</strong> of commercial experience across
+          healthcare, logistics, finance and enterprise platforms. I build distributed load-testing
+          platforms, observability stacks and CI/CD-native testing infrastructure — then use them to
+          find the bottleneck before your users do.
+        </p>
+        <p class="lede">
+          I lead performance engineering practices end to end: defining SLAs/SLOs and non-functional
+          standards, hiring and mentoring engineers, and embedding <strong>Generative AI</strong> into
+          day-to-day engineering workflows to accelerate delivery.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn btn-ghost" href="#experience">View experience</a>
+        </div>
+
+        <ul class="hero-meta">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-5.3-7-11a7 7 0 1 1 14 0c0 5.7-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg> Ukraine · Remote</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg> English — Advanced</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="9" r="5"/><path d="M8.5 13.5L7 22l5-2.5L17 22l-1.5-8.5"/></svg> ISTQB® CT-PT Certified</li>
+        </ul>
+      </div>
+
+      <div class="hero-side reveal">
+        <div class="portrait">
+          <img src="images/avatar.jpg" alt="Portrait of Savva Henchevskyi" width="420" height="420" loading="eager">
+          <div class="portrait-ring" aria-hidden="true"></div>
+        </div>
+
+        <dl class="stats">
+          <div class="stat"><dt>Years in QA &amp; Perf</dt><dd data-count="10" data-suffix="+">10+</dd></div>
+          <div class="stat"><dt>Perf. practices built</dt><dd data-count="7" data-suffix="">7</dd></div>
+          <div class="stat"><dt>Engineers led</dt><dd data-count="4" data-suffix="">4</dd></div>
+          <div class="stat"><dt>Domains covered</dt><dd data-count="5" data-suffix="">5</dd></div>
+        </dl>
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="marquee reveal" aria-label="Core toolchain">
+        <div class="marquee-track">
+          <span>K6</span><i>·</i><span>Gatling</span><i>·</i><span>Locust</span><i>·</i><span>JMeter</span><i>·</i><span>Artillery</span><i>·</i>
+          <span>Kubernetes</span><i>·</i><span>Prometheus</span><i>·</i><span>Grafana</span><i>·</i><span>Datadog</span><i>·</i>
+          <span>TypeScript</span><i>·</i><span>Java</span><i>·</i><span>Python</span><i>·</i><span>Playwright</span><i>·</i>
+          <span>AWS</span><i>·</i><span>Azure</span><i>·</i><span>GitHub Actions</span><i>·</i><span>OpenTelemetry</span><i>·</i>
+          <span aria-hidden="true">K6</span><i aria-hidden="true">·</i><span aria-hidden="true">Gatling</span><i aria-hidden="true">·</i>
+          <span aria-hidden="true">Locust</span><i aria-hidden="true">·</i><span aria-hidden="true">JMeter</span><i aria-hidden="true">·</i>
+          <span aria-hidden="true">Artillery</span><i aria-hidden="true">·</i><span aria-hidden="true">Kubernetes</span><i aria-hidden="true">·</i>
+          <span aria-hidden="true">Prometheus</span><i aria-hidden="true">·</i><span aria-hidden="true">Grafana</span><i aria-hidden="true">·</i>
+          <span aria-hidden="true">Datadog</span><i aria-hidden="true">·</i><span aria-hidden="true">TypeScript</span><i aria-hidden="true">·</i>
+          <span aria-hidden="true">Java</span><i aria-hidden="true">·</i><span aria-hidden="true">Python</span><i aria-hidden="true">·</i>
+          <span aria-hidden="true">Playwright</span><i aria-hidden="true">·</i><span aria-hidden="true">AWS</span><i aria-hidden="true">·</i>
+          <span aria-hidden="true">Azure</span><i aria-hidden="true">·</i><span aria-hidden="true">GitHub Actions</span><i aria-hidden="true">·</i>
+          <span aria-hidden="true">OpenTelemetry</span><i aria-hidden="true">·</i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ CAREER TIMELINE ============================ -->
+  <section class="section" id="career">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="kicker">01 — Journey</p>
+        <h2>History of my career</h2>
+        <p class="section-sub">From manual QA to leading performance engineering practices — ten years, eight companies, one consistent direction: making systems measurably faster and more reliable.</p>
+      </header>
+
+      <ol class="timeline">
+        <li class="tl-item reveal current">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-date">Mar 2026 — Present</p>
+            <h3>Senior Performance Engineer <span class="at">·</span> <span class="company">Grid Dynamics</span></h3>
+            <p>JetBrains Cloud Platform — AI &amp; Org Management. Building the performance practice and its monitoring stack from scratch; capacity planning and AI-assisted troubleshooting.</p>
+          </div>
+        </li>
+        <li class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-date">Aug 2023 — Feb 2026 <span class="chip">2 years</span></p>
+            <h3>Senior / Lead Performance Engineer <span class="at">·</span> <span class="company">N-iX</span></h3>
+            <p>CluePoints (healthcare). Founded the performance engineering function, led a team of 4, set SLAs/SLOs with product stakeholders and introduced AI-assisted test generation.</p>
+          </div>
+        </li>
+        <li class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-date">Sep 2021 — Aug 2023 <span class="chip">2 years</span></p>
+            <h3>Senior Performance Engineer <span class="at">·</span> <span class="company">Svitla Systems</span></h3>
+            <p>Roadie (logistics) and GlobalID (blockchain identity). Built AWS-based load-testing platforms, migrated JMeter suites to a Locust cluster and coached QA teams into performance work.</p>
+          </div>
+        </li>
+        <li class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-date">Apr 2020 — Sep 2021 <span class="chip">1 year 5 months</span></p>
+            <h3>Senior QA Automation / Performance Engineer <span class="at">·</span> <span class="company">ABSoft</span></h3>
+            <p>RingCentral internal reporting system. Front-end and back-end performance on GitLab with Gatling and Sitespeed.IO, plus hands-on CI/CD and monitoring infrastructure support.</p>
+          </div>
+        </li>
+        <li class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-date">May 2019 — Apr 2020 <span class="chip">1 year</span></p>
+            <h3>QA Automation / Performance Engineer <span class="at">·</span> <span class="company">Lohika</span></h3>
+            <p>earnin.com (IoT &amp; finance). Custom distributed load platform on Kubernetes with Locust, Prometheus and Grafana; C# .NET API test framework from scratch.</p>
+          </div>
+        </li>
+        <li class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-date">Feb 2018 — May 2019 <span class="chip">1 year 4 months</span></p>
+            <h3>QA Engineer <span class="at">·</span> <span class="company">CloudBees</span></h3>
+            <p>CloudBees Flow release-orchestration platform. Integration and E2E testing of container plugins across Docker Swarm, Kubernetes, GCP, AWS, OpenShift, Ansible and Terraform.</p>
+          </div>
+        </li>
+        <li class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-date">Jul 2017 — Jan 2018 <span class="chip">7 months</span></p>
+            <h3>QA Automation Engineer <span class="at">·</span> <span class="company">Intcom OOO</span></h3>
+            <p>Gepur.com e-commerce. Java/Selenide E2E suites, RestAssured API tests and daily Jenkins regressions.</p>
+          </div>
+        </li>
+        <li class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-body">
+            <p class="tl-date">May 2016 — Jul 2017 <span class="chip">1 year</span></p>
+            <h3>QA Automation / Manual Engineer <span class="at">·</span> <span class="company">Singree</span></h3>
+            <p>opporty.com, carvoy.info — IoT, finance and healthcare. Where it started: test plans, manual testing and the first Selenium suites in Python and Java.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============================ SERVICES ============================ -->
+  <section class="section alt" id="services">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="kicker">02 — What I do</p>
+        <h2>Services I can provide</h2>
+        <p class="section-sub">Engagements I have delivered repeatedly — as an individual contributor, as a technical lead, and as the person who leaves the practice running after they go.</p>
+      </header>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 17l5-6 4 4 5-7 4 5"/><path d="M3 21h18"/></svg></div>
+          <h3>Performance Strategy &amp; NFRs</h3>
+          <p>Gathering SLAs/SLOs from product owners, translating them into measurable non-functional requirements, and turning those into test plans and per-component strategies.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/></svg></div>
+          <h3>Load Testing Platforms</h3>
+          <p>Distributed, cloud-native load-generation platforms on Kubernetes, EKS and AKS with K6, Gatling, Locust, Artillery and JMeter — built from scratch or rescued from an unmaintained state.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 12h4l3 7 4-14 3 7h4"/></svg></div>
+          <h3>Observability &amp; Monitoring</h3>
+          <p>Prometheus/Thanos, Grafana (Loki, Tempo), InfluxDB, Datadog, New Relic, Elasticsearch/Kibana and OpenTelemetry — dashboards and alerting that make regressions obvious.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/><path d="M11 8v3l2 2"/></svg></div>
+          <h3>Bottleneck Analysis &amp; Profiling</h3>
+          <p>End-to-end troubleshooting across services, databases and infrastructure: JVM profiling with VisualVM and JProfiler, memory-leak hunting, query and capacity analysis.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="6" cy="5" r="2.5"/><circle cx="6" cy="19" r="2.5"/><circle cx="17" cy="7" r="2.5"/><path d="M6 7.5v9"/><path d="M17 9.5c0 4.2-4.5 4.6-8.6 5.2"/></svg></div>
+          <h3>CI/CD &amp; Shift-Left Performance</h3>
+          <p>Performance gates inside GitHub Actions, GitLab CI, Jenkins and CircleCI, with ephemeral load agents, automated reporting and trend baselines instead of one-off manual runs.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="M9 10l-2 2 2 2M15 10l2 2-2 2"/></svg></div>
+          <h3>Test Automation Frameworks</h3>
+          <p>API, integration and E2E frameworks in TypeScript, Java, Kotlin, Python and C# — Playwright, Selenide, RestAssured, Pytest, JUnit5 — with Allure reporting and coverage insight.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3a4 4 0 0 1 4 4v1a4 4 0 0 1 0 8v1a4 4 0 0 1-8 0v-1a4 4 0 0 1 0-8V7a4 4 0 0 1 4-4z"/><path d="M12 8v8"/></svg></div>
+          <h3>AI-Assisted Engineering Workflows</h3>
+          <p>Introducing Copilot, Claude, Codex, Junie and JetBrains AI Assistant into real delivery: generation conventions, custom agent skills and commands, and guardrails teams actually follow.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0"/><circle cx="17.5" cy="9.5" r="2.6"/><path d="M15 20a5.5 5.5 0 0 1 6.8-4.2"/></svg></div>
+          <h3>Team Leadership &amp; Enablement</h3>
+          <p>Hiring, interviewing, onboarding and mentoring performance engineers; knowledge sharing with QA, SRE and development teams; establishing engineering standards across products.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ AI ADOPTION ============================ -->
+  <section class="section" id="ai">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="kicker">03 — Generative AI</p>
+        <h2>AI projects adoption history</h2>
+        <p class="section-sub">How Generative AI moved from an autocomplete curiosity to a core part of how I design test infrastructure, write scenarios and troubleshoot production-scale systems.</p>
+      </header>
+
+      <div class="ai-grid">
+        <article class="ai-card reveal">
+          <p class="ai-phase">Phase 01 · 2023</p>
+          <h3>Copilot in the test loop</h3>
+          <p class="ai-where">CluePoints @ N-iX</p>
+          <p>Introduced <strong>GitHub Copilot</strong> into day-to-day K6 scenario and test-code development, cutting the time from a new NFR to a runnable load scenario.</p>
+          <ul class="tags"><li>GitHub Copilot</li><li>K6</li><li>JavaScript</li></ul>
+        </article>
+
+        <article class="ai-card reveal">
+          <p class="ai-phase">Phase 02 · 2024</p>
+          <h3>Conventions for AI-generated tests</h3>
+          <p class="ai-where">CluePoints @ N-iX</p>
+          <p>Added <strong>OpenAI Codex</strong> to the toolchain and authored team-wide conventions and rules for generating tests with AI — so generated code matched framework patterns instead of fighting them.</p>
+          <ul class="tags"><li>OpenAI Codex</li><li>Prompt conventions</li><li>Code review</li></ul>
+        </article>
+
+        <article class="ai-card reveal">
+          <p class="ai-phase">Phase 03 · 2026</p>
+          <h3>AI agents for infrastructure</h3>
+          <p class="ai-where">JetBrains Cloud Platform @ Grid Dynamics</p>
+          <p>Test and server infrastructure developed and refactored with <strong>JetBrains AI Assistant (Claude)</strong>, <strong>Junie</strong> and AI agents — from Kubernetes manifests to observability wiring.</p>
+          <ul class="tags"><li>Claude</li><li>JetBrains Junie</li><li>Kubernetes</li></ul>
+        </article>
+
+        <article class="ai-card reveal">
+          <p class="ai-phase">Phase 04 · Now</p>
+          <h3>Custom agent skills &amp; AI troubleshooting</h3>
+          <p class="ai-where">JetBrains Cloud Platform @ Grid Dynamics</p>
+          <p>Building <strong>AI agent skills and commands</strong> for routine development tasks and pipelines, and using AI-assisted analysis for complex performance research, memory profiling and leak identification.</p>
+          <ul class="tags"><li>Agent skills</li><li>Memory profiling</li><li>CI pipelines</li></ul>
+        </article>
+      </div>
+
+      <p class="ai-note reveal">
+        <strong>Position on AI:</strong> it accelerates the work, it does not replace the engineering. Every generated
+        scenario still has to hold up against real SLOs, real infrastructure limits and a real production incident.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================ EXPERIENCE ============================ -->
+  <section class="section alt" id="experience">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="kicker">04 — Track record</p>
+        <h2>Experience</h2>
+        <p class="section-sub">Project-level detail behind the timeline. Click any project to expand the responsibilities and the stack it ran on.</p>
+      </header>
+
+      <div class="exp-list">
+
+        <details class="exp reveal" open>
+          <summary>
+            <div class="exp-head">
+              <div>
+                <h3>JetBrains Cloud Platform</h3>
+                <p class="exp-meta"><span class="company">Grid Dynamics</span> · Senior Performance Engineer · <span class="muted">JetBrains AI &amp; Org Management Cloud Platform</span></p>
+              </div>
+              <div class="exp-side">
+                <span class="exp-date">Mar 2026 — Present</span>
+                <span class="chevron" aria-hidden="true"></span>
+              </div>
+            </div>
+          </summary>
+          <div class="exp-body">
+            <ul class="bullets">
+              <li>Injected performance engineering expertise from scratch and built the performance testing infrastructure.</li>
+              <li>Built monitoring and alerting infrastructure on Kubernetes with Prometheus (Thanos) and Grafana (Loki, Tempo).</li>
+              <li>Developed K6 scripts and scenarios using Generative AI — JetBrains Junie, JetBrains AI Assistant and GitHub Copilot.</li>
+              <li>Developed and refactored test and server infrastructure with JetBrains AI Assistant (Claude) and AI agents.</li>
+              <li>Built AI agent skills/commands for routine development tasks and pipelines.</li>
+              <li>Created performance test plans and strategies for individual product components.</li>
+              <li>Executed capacity and load tests to identify bottlenecks and drive capacity planning across backend components.</li>
+              <li>Performed complex application troubleshooting and performance research, including memory profiling and leak identification.</li>
+            </ul>
+            <ul class="tags">
+              <li>K6</li><li>TypeScript</li><li>Kubernetes</li><li>Kafka</li><li>Prometheus</li><li>Thanos</li><li>Grafana</li><li>Loki</li><li>Tempo</li><li>Docker</li><li>GitHub Actions</li><li>Copilot</li><li>Junie</li><li>JetBrains AI Assistant</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="exp reveal">
+          <summary>
+            <div class="exp-head">
+              <div>
+                <h3>CluePoints</h3>
+                <p class="exp-meta"><span class="company">N-iX</span> · Senior / Lead Performance Engineer · <span class="muted">Healthcare industry product</span></p>
+              </div>
+              <div class="exp-side">
+                <span class="exp-date">Aug 2023 — Feb 2026</span>
+                <span class="chevron" aria-hidden="true"></span>
+              </div>
+            </div>
+          </summary>
+          <div class="exp-body">
+            <ul class="bullets">
+              <li>Built performance engineering expertise and test infrastructure from scratch with K6, GitLab, Kubernetes, Grafana Cloud and InfluxDB2 for monitoring and alerting.</li>
+              <li>Accelerated test code and scenario development using GitHub Copilot and OpenAI Codex.</li>
+              <li>Established conventions and rules for test generation with Generative AI.</li>
+              <li>Built performance test plans and strategies across multiple domains and projects.</li>
+              <li>Technical lead for a team of 4 performance engineers — interviewing, mentoring and setting engineering best practices across products.</li>
+              <li>Gathered and analysed SLAs/SLOs with product owners and managers, covering the system against non-functional requirements.</li>
+              <li>Ran knowledge sharing and coached QA, SRE and development teams on performance testing practices.</li>
+              <li>Performed complex reporting, troubleshooting and bottleneck research with Thanos, Grafana, Datadog, Elasticsearch, Kibana and Sentry.</li>
+            </ul>
+            <ul class="tags">
+              <li>K6</li><li>JavaScript</li><li>Azure</li><li>Kubernetes</li><li>InfluxDB</li><li>Prometheus</li><li>Thanos</li><li>Grafana</li><li>Elasticsearch</li><li>Kibana</li><li>Datadog</li><li>Docker</li><li>GitLab</li><li>Copilot</li><li>OpenAI Codex</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="exp reveal">
+          <summary>
+            <div class="exp-head">
+              <div>
+                <h3>Roadie</h3>
+                <p class="exp-meta"><span class="company">Svitla Systems</span> · Senior Performance Engineer · <span class="muted">Logistics &amp; package delivery platform</span></p>
+              </div>
+              <div class="exp-side">
+                <span class="exp-date">2022 — Aug 2023</span>
+                <span class="chevron" aria-hidden="true"></span>
+              </div>
+            </div>
+          </summary>
+          <div class="exp-body">
+            <ul class="bullets">
+              <li>Built the performance testing process and infrastructure on AWS using Locust, Prometheus and Grafana.</li>
+              <li>Migrated JMeter/BlazeMeter tests to a Locust cluster.</li>
+              <li>Executed regular performance tests and reporting for senders, drivers, warehouse, mobile and web applications.</li>
+              <li>Deployed load agents and the platform into an AWS EKS cluster.</li>
+              <li>Monitored front-end and back-end metrics with Prometheus and Grafana.</li>
+            </ul>
+            <ul class="tags">
+              <li>Locust</li><li>JMeter</li><li>BlazeMeter</li><li>AWS</li><li>EKS</li><li>Kubernetes</li><li>ElastiCache</li><li>Docker</li><li>CircleCI</li><li>New Relic</li><li>Redash</li><li>Prometheus</li><li>Grafana</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="exp reveal">
+          <summary>
+            <div class="exp-head">
+              <div>
+                <h3>GlobalID</h3>
+                <p class="exp-meta"><span class="company">Svitla Systems</span> · Senior Performance Engineer · <span class="muted">Blockchain-based digital identity</span></p>
+              </div>
+              <div class="exp-side">
+                <span class="exp-date">Sep 2021 — 2022</span>
+                <span class="chevron" aria-hidden="true"></span>
+              </div>
+            </div>
+          </summary>
+          <div class="exp-body">
+            <ul class="bullets">
+              <li>Built the performance testing process and infrastructure on AWS using K6, Artillery and Datadog.</li>
+              <li>Defined the performance testing strategy and planning.</li>
+              <li>Ran regular performance regression cycles.</li>
+              <li>Deployed load agents with GitHub Actions and Kubernetes.</li>
+              <li>Monitored application and client-side metrics with Datadog and CloudWatch.</li>
+              <li>Taught the QA team to develop and execute performance scenarios.</li>
+              <li>Wrote the system API testing framework from scratch in TypeScript with Mocha and Got.</li>
+            </ul>
+            <ul class="tags">
+              <li>K6</li><li>Artillery</li><li>TypeScript</li><li>AWS</li><li>Datadog</li><li>CloudWatch</li><li>Docker</li><li>GitHub Actions</li><li>Mocha</li><li>Got</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="exp reveal">
+          <summary>
+            <div class="exp-head">
+              <div>
+                <h3>RingCentral</h3>
+                <p class="exp-meta"><span class="company">ABSoft</span> · Senior QA Automation / Performance Engineer · <span class="muted">Internal corporate reporting system</span></p>
+              </div>
+              <div class="exp-side">
+                <span class="exp-date">Apr 2020 — Sep 2021</span>
+                <span class="chevron" aria-hidden="true"></span>
+              </div>
+            </div>
+          </summary>
+          <div class="exp-body">
+            <ul class="bullets">
+              <li>Built the performance testing process and infrastructure on GitLab with Gatling, Sitespeed.IO, Prometheus and Grafana.</li>
+              <li>Planned regular performance experiments across environments, including production.</li>
+              <li>Executed front-end and back-end performance tests and reporting on a regular cadence.</li>
+              <li>Monitored application and client-side metrics with Prometheus, Grafana and Sentry.</li>
+              <li>Helped DevOps maintain GitLab and GitLab Runner infrastructure and troubleshoot infrastructure problems.</li>
+              <li>Supported engineers and DevOps in building monitoring and logging solutions.</li>
+              <li>Deployed and configured third-party services and CI/CD platforms, including on-premises Jenkins and Sentry.</li>
+            </ul>
+            <ul class="tags">
+              <li>Gatling</li><li>Sitespeed.IO</li><li>GitLab CI</li><li>Prometheus</li><li>Grafana</li><li>Sentry</li><li>Jenkins</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="exp reveal">
+          <summary>
+            <div class="exp-head">
+              <div>
+                <h3>earnin.com</h3>
+                <p class="exp-meta"><span class="company">Lohika</span> · QA Automation / Performance Engineer · <span class="muted">IoT &amp; finance application</span></p>
+              </div>
+              <div class="exp-side">
+                <span class="exp-date">May 2019 — Apr 2020</span>
+                <span class="chevron" aria-hidden="true"></span>
+              </div>
+            </div>
+          </summary>
+          <div class="exp-body">
+            <ul class="bullets">
+              <li>Analysed NFRs and created performance test strategies and plans.</li>
+              <li>Built a custom distributed performance testing platform with Locust, Kubernetes, Prometheus and Grafana.</li>
+              <li>Executed performance tests and deployed load agents to Kubernetes via Jenkins.</li>
+              <li>Built and maintained custom Jenkins pipelines in Groovy using a Jenkins shared library.</li>
+              <li>Supported back-end engineers running their own performance benchmarks.</li>
+              <li>Developed and maintained an API test framework from scratch in C# .NET with RestSharp, NUnit and Allure.</li>
+              <li>Generated API clients with OpenAPI Generator.</li>
+            </ul>
+            <ul class="tags">
+              <li>Locust</li><li>C# .NET</li><li>Groovy</li><li>Kubernetes</li><li>Prometheus</li><li>Grafana</li><li>Jenkins</li><li>RestSharp</li><li>NUnit</li><li>Allure</li><li>OpenAPI Generator</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="exp reveal">
+          <summary>
+            <div class="exp-head">
+              <div>
+                <h3>CloudBees Flow</h3>
+                <p class="exp-meta"><span class="company">CloudBees</span> · QA Engineer · <span class="muted">Adaptive release orchestration platform</span></p>
+              </div>
+              <div class="exp-side">
+                <span class="exp-date">Feb 2018 — May 2019</span>
+                <span class="chevron" aria-hidden="true"></span>
+              </div>
+            </div>
+          </summary>
+          <div class="exp-body">
+            <ul class="bullets">
+              <li>Wrote test documentation and test cases for platform plugins.</li>
+              <li>Configured environments and clusters for deployment plugins across Docker Swarm, Kubernetes, Google Cloud, AWS, OpenShift, Ansible and Terraform.</li>
+              <li>Wrote automated integration tests for container plugins using Groovy, Spock, TestNG and a Groovy HTTP client.</li>
+              <li>Ran and reported regular integration regressions using CloudBees Flow itself as the CI/CD engine.</li>
+              <li>Wrote platform end-to-end tests with Kotlin, Selenide, TestNG, Allure and Selenoid.</li>
+            </ul>
+            <ul class="tags">
+              <li>Groovy</li><li>Kotlin</li><li>Docker Swarm</li><li>Kubernetes</li><li>Google Cloud</li><li>AWS</li><li>OpenShift</li><li>Ansible</li><li>Terraform</li><li>Spock</li><li>TestNG</li><li>Selenide</li><li>Selenoid</li><li>Allure</li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="exp reveal">
+          <summary>
+            <div class="exp-head">
+              <div>
+                <h3>Gepur.com</h3>
+                <p class="exp-meta"><span class="company">Intcom OOO</span> · QA Automation Engineer · <span class="muted">Ukrainian textile brand e-commerce</span></p>
+              </div>
+              <div class="exp-side">
+                <span class="exp-date">Jul 2017 — Jan 2018</span>
+                <span class="chevron" aria-hidden="true"></span>
+              </div>
+            </div>
+          </summary>
+          <div class="exp-body">
+            <ul class="bullets">
+              <li>Performed test planning and manual testing for mobile and web applications.</li>
+              <li>Wrote automated end-to-end tests with Java, Selenide, Selenoid and Allure.</li>
+              <li>Wrote API integration tests with RestAssured.</li>
+              <li>Ran daily regression suites through Jenkins.</li>
+            </ul>
+            <ul class="tags"><li>Java</li><li>Selenide</li><li>Selenoid</li><li>Allure</li><li>RestAssured</li><li>Jenkins</li></ul>
+          </div>
+        </details>
+
+        <details class="exp reveal">
+          <summary>
+            <div class="exp-head">
+              <div>
+                <h3>opporty.com · carvoy.info</h3>
+                <p class="exp-meta"><span class="company">Singree</span> · QA Automation / Manual Engineer · <span class="muted">IoT, finance and healthcare projects</span></p>
+              </div>
+              <div class="exp-side">
+                <span class="exp-date">May 2016 — Jul 2017</span>
+                <span class="chevron" aria-hidden="true"></span>
+              </div>
+            </div>
+          </summary>
+          <div class="exp-body">
+            <ul class="bullets">
+              <li>Performed manual testing across multiple web and mobile applications.</li>
+              <li>Wrote test plans, test cases and checklists.</li>
+              <li>Wrote automated tests with Selenium in Python and Java using Unittest, JUnit and TestNG.</li>
+            </ul>
+            <ul class="tags"><li>Python</li><li>Java</li><li>Selenium</li><li>Unittest</li><li>JUnit</li><li>TestNG</li></ul>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ SKILLS ============================ -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="kicker">05 — Toolbox</p>
+        <h2>Skills</h2>
+        <p class="section-sub">Ten years of accumulated tooling across performance engineering, automation, cloud infrastructure and observability.</p>
+      </header>
+
+      <div class="skills-grid">
+        <section class="skill-group reveal">
+          <h3>Performance Engineering</h3>
+          <ul class="tags lg">
+            <li class="hot">K6</li><li class="hot">Gatling</li><li class="hot">Locust</li><li class="hot">Apache JMeter</li><li class="hot">Artillery</li>
+            <li>BlazeMeter Taurus</li><li>K6-browser</li><li>Sitespeed.IO</li><li>WebPageTest</li><li>VisualVM</li><li>JProfiler</li><li>Charles</li><li>Proxyman</li><li>Postman</li>
+          </ul>
+        </section>
+
+        <section class="skill-group reveal">
+          <h3>Languages</h3>
+          <ul class="tags lg">
+            <li class="hot">Java</li><li class="hot">TypeScript</li><li class="hot">Python</li><li>JavaScript</li><li>Kotlin</li><li>Groovy</li><li>Scala</li><li>Go</li><li>C#</li><li>Bash</li>
+          </ul>
+        </section>
+
+        <section class="skill-group reveal">
+          <h3>Orchestration &amp; Cloud</h3>
+          <ul class="tags lg">
+            <li class="hot">Kubernetes</li><li class="hot">Docker</li><li class="hot">AWS</li><li>EKS</li><li>EC2</li><li>RDS</li><li>SQS / SNS</li><li>S3</li><li>Secrets Manager</li>
+            <li>Azure (AKS, Blob)</li><li>Google Cloud</li><li>OpenShift</li><li>Docker Swarm</li><li>Terraform</li><li>Ansible</li><li>Helm</li><li>Skaffold</li>
+          </ul>
+        </section>
+
+        <section class="skill-group reveal">
+          <h3>Monitoring &amp; Observability</h3>
+          <ul class="tags lg">
+            <li class="hot">Prometheus</li><li class="hot">Grafana</li><li class="hot">Datadog</li><li>Thanos</li><li>Grafana Loki</li><li>Grafana Tempo</li><li>InfluxDB v1/v2</li>
+            <li>Graphite</li><li>Telegraf</li><li>New Relic</li><li>Sentry</li><li>Elasticsearch</li><li>Kibana</li><li>OpenTelemetry</li><li>Fluentd</li>
+          </ul>
+        </section>
+
+        <section class="skill-group reveal">
+          <h3>Test Automation</h3>
+          <ul class="tags lg">
+            <li class="hot">Playwright</li><li>Cypress</li><li>Selenium WebDriver</li><li>Selenide</li><li>Selene</li><li>JUnit5</li><li>TestNG</li><li>Pytest</li><li>Mocha</li><li>Spock</li>
+            <li>Cucumber</li><li>TestContainers</li><li>RestAssured</li><li>Retrofit</li><li>Requests</li><li>Axios / Got</li><li>NUnit / XUnit</li><li>RestSharp</li><li>Allure</li><li>OpenAPI Generator</li>
+          </ul>
+        </section>
+
+        <section class="skill-group reveal">
+          <h3>CI/CD &amp; Platforms</h3>
+          <ul class="tags lg">
+            <li class="hot">GitHub Actions</li><li class="hot">GitLab CI</li><li>Jenkins</li><li>CircleCI</li><li>Travis</li><li>CloudBees Flow</li><li>Maven</li><li>Gradle</li><li>SBT</li>
+            <li>Selenium Grid</li><li>Selenoid / GGR</li><li>Aerokube Moon</li><li>BrowserStack</li><li>Sauce Labs</li><li>Appium</li><li>Kobiton</li>
+          </ul>
+        </section>
+
+        <section class="skill-group reveal">
+          <h3>Generative AI</h3>
+          <ul class="tags lg">
+            <li class="hot">Claude</li><li class="hot">GitHub Copilot</li><li class="hot">JetBrains AI Assistant</li><li>JetBrains Junie</li><li>OpenAI Codex</li><li>ChatGPT</li><li>Agent skills &amp; commands</li>
+          </ul>
+        </section>
+
+        <section class="skill-group reveal">
+          <h3>Data &amp; Process</h3>
+          <ul class="tags lg">
+            <li>PostgreSQL</li><li>MySQL</li><li>MongoDB</li><li>Kafka</li><li>Jira</li><li>Xray</li><li>YouTrack</li><li>TestRail</li><li>Linux</li><li>macOS</li><li>Windows</li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="creds reveal">
+        <div class="cred">
+          <p class="cred-label">Certification</p>
+          <p class="cred-value">ISTQB® Certified Tester — Performance Testing (CT-PT)</p>
+          <p class="cred-note">Aug 2026</p>
+        </div>
+        <div class="cred">
+          <p class="cred-label">Education</p>
+          <p class="cred-value">M.Sc. in Chemical Science</p>
+          <p class="cred-note">Odesa National University</p>
+        </div>
+        <div class="cred">
+          <p class="cred-label">Workshops</p>
+          <p class="cred-value">Playwright for Seniors · Java Automation in a Microservices World</p>
+          <p class="cred-note">HotTesting 2024 · XPInjection 2022</p>
+        </div>
+        <div class="cred">
+          <p class="cred-label">Speaking</p>
+          <p class="cred-value"><a href="https://www.youtube.com/watch?v=Fv9BHvS8eYE&amp;list=PL-pX08T_JdYato0gEiRZEtMwKNHX5ZXlS&amp;index=3&amp;t=1s" target="_blank" rel="noopener">Svitla SmartTalk — Modern Performance Testing on JavaScript</a></p>
+          <p class="cred-note">Nov 2022</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ PROJECTS (collapsed) ============================ -->
+  <section class="section alt" id="projects">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="kicker">06 — Open source</p>
+        <h2>Projects</h2>
+        <p class="section-sub">Public proof-of-concept repositories and demo frameworks I maintain on GitHub. Hidden by default to keep this page short — expand when you want the detail.</p>
+      </header>
+
+      <button class="disclosure reveal" id="projects-toggle" type="button" aria-expanded="false" aria-controls="projects-panel">
+        <span class="disclosure-label">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h6l2 2h8v10H4z"/></svg>
+          <span data-open-text="Hide open-source projects" data-closed-text="Show open-source projects">Show open-source projects</span>
+        </span>
+        <span class="disclosure-hint"><span class="count">17</span> repositories <span class="chevron" aria-hidden="true"></span></span>
+      </button>
+
+      <div class="projects-panel" id="projects-panel" hidden>
+        <div class="proj-grid">
+
+          <a class="proj" href="https://github.com/savvagen/playwright-pytest-example" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang py">Python</span><span class="stars">★ 69</span></div>
+            <h3>playwright-pytest-example</h3>
+            <p>End-to-end web testing project built with Python, Playwright and Pytest, wired up with Allure reporting.</p>
+            <ul class="tags"><li>Playwright</li><li>Pytest</li><li>Allure</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/gatling-java-kotlin-demo" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang java">Java</span><span class="stars">★ 5</span></div>
+            <h3>gatling-java-kotlin-demo</h3>
+            <p>Gatling 3.7 scenarios written in both Java and Kotlin — a side-by-side comparison to find the best language and library set.</p>
+            <ul class="tags"><li>Gatling</li><li>Java</li><li>Kotlin</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/gatling-gradle-demo" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang scala">Scala</span><span class="stars">★ 3</span></div>
+            <h3>gatling-gradle-demo</h3>
+            <p>Gatling load-testing project driven by Gradle, showing scenario structure, feeders and CI-friendly execution.</p>
+            <ul class="tags"><li>Gatling</li><li>Gradle</li><li>Scala</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/k6-prometheus-exporter" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang ts">TypeScript</span><span class="stars">★ 2</span></div>
+            <h3>k6-prometheus-exporter</h3>
+            <p>Exporting K6 load-test metrics into Prometheus for long-lived dashboards and alerting on performance regressions.</p>
+            <ul class="tags"><li>K6</li><li>Prometheus</li><li>Observability</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/Selenoid-example" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang shell">Infra</span><span class="stars">★ 2</span></div>
+            <h3>Selenoid-example</h3>
+            <p>Reference setup for running browser tests in containers with Selenoid — configuration, video recording and grid wiring.</p>
+            <ul class="tags"><li>Selenoid</li><li>Docker</li><li>Selenium</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/k6-quickpizza-poc" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang ts">TypeScript</span><span class="stars">★ 0</span></div>
+            <h3>k6-quickpizza-poc</h3>
+            <p>Proof of concept for modern K6 load testing in TypeScript against the Grafana QuickPizza demo application.</p>
+            <ul class="tags"><li>K6</li><li>TypeScript</li><li>Grafana</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/k6-typescript-demo" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang ts">TypeScript</span><span class="stars">★ 0</span></div>
+            <h3>k6-typescript-demo</h3>
+            <p>Typed K6 project layout — bundling, shared clients and reusable scenario building blocks for larger suites.</p>
+            <ul class="tags"><li>K6</li><li>TypeScript</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/k6-demo-project" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang js">JavaScript</span><span class="stars">★ 0</span></div>
+            <h3>k6-demo-project</h3>
+            <p>Starter K6 project covering thresholds, stages and checks — the baseline template I hand to teams new to K6.</p>
+            <ul class="tags"><li>K6</li><li>JavaScript</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/artillery-poc-project" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang js">JavaScript</span><span class="stars">★ 1</span></div>
+            <h3>artillery-poc-project</h3>
+            <p>Artillery-based load testing proof of concept with scenario definitions and custom JavaScript processors.</p>
+            <ul class="tags"><li>Artillery</li><li>JavaScript</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/jmeter-gradle-demo-project" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang java">Java</span><span class="stars">★ 1</span></div>
+            <h3>jmeter-gradle-demo-project</h3>
+            <p>Apache JMeter test plans managed as code and executed through Gradle for reproducible CI runs.</p>
+            <ul class="tags"><li>JMeter</li><li>Gradle</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/django-profiling-poc" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang py">Python</span><span class="stars">★ 0</span></div>
+            <h3>django-profiling-poc</h3>
+            <p>Profiling a Django application to surface slow views and query patterns before they reach production.</p>
+            <ul class="tags"><li>Django</li><li>Profiling</li><li>Python</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/playwring-typescript-poc" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang ts">TypeScript</span><span class="stars">★ 1</span></div>
+            <h3>playwright-typescript-poc</h3>
+            <p>Playwright E2E framework in TypeScript — page objects, fixtures and parallel execution patterns.</p>
+            <ul class="tags"><li>Playwright</li><li>TypeScript</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/typescript-api-testing-poc" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang ts">TypeScript</span><span class="stars">★ 0</span></div>
+            <h3>typescript-api-testing-poc</h3>
+            <p>API and integration testing in TypeScript with typed HTTP clients, Mocha and structured assertions.</p>
+            <ul class="tags"><li>TypeScript</li><li>Mocha</li><li>API</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/cypress-realworld-project" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang js">JavaScript</span><span class="stars">★ 1</span></div>
+            <h3>cypress-realworld-project</h3>
+            <p>Cypress test suite against a real-world application, covering component and end-to-end coverage strategies.</p>
+            <ul class="tags"><li>Cypress</li><li>JavaScript</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/playwright-junit-example" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang java">Java</span><span class="stars">★ 0</span></div>
+            <h3>playwright-junit-example</h3>
+            <p>Playwright for Java driven by JUnit5 — browser fixtures, parallelism and reporting for JVM teams.</p>
+            <ul class="tags"><li>Playwright</li><li>JUnit5</li><li>Java</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/test-coverage-demo" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang java">Java</span><span class="stars">★ 1</span></div>
+            <h3>test-coverage-demo</h3>
+            <p>Measuring API test coverage against an OpenAPI specification so gaps in the suite become visible.</p>
+            <ul class="tags"><li>Coverage</li><li>OpenAPI</li><li>Java</li></ul>
+          </a>
+
+          <a class="proj" href="https://github.com/savvagen/gatling-pet-project" target="_blank" rel="noopener">
+            <div class="proj-top"><span class="lang scala">Scala</span><span class="stars">★ 0</span></div>
+            <h3>gatling-pet-project</h3>
+            <p>Minimal Gatling hello-world on Gradle — the smallest working example for onboarding new engineers.</p>
+            <ul class="tags"><li>Gatling</li><li>Scala</li></ul>
+          </a>
+
+        </div>
+
+        <a class="all-repos" href="https://github.com/savvagen?tab=repositories" target="_blank" rel="noopener">
+          Browse all repositories on GitHub
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ CONTACT ============================ -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact-card reveal">
+        <div class="contact-copy">
+          <p class="kicker">07 — Contact</p>
+          <h2>Let’s make your system faster</h2>
+          <p class="section-sub">Open to Lead and Senior Performance / Reliability Engineering roles, consulting engagements and building performance practices from scratch.</p>
+        </div>
+
+        <ul class="contact-list">
+          <li>
+            <a href="mailto:savva.genchevskiy@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
+              <span><small>Email</small>savva.genchevskiy@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+380975475717">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1.1 1A16 16 0 0 1 4 5.1 1 1 0 0 1 5 4z"/></svg>
+              <span><small>Phone</small>+380 97 547 5717</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/savva-genchevskiy-231947121/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h3v11H4zM5.5 4a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6z"/><path d="M10 9h3v1.6a3.4 3.4 0 0 1 3-1.6c2.4 0 4 1.6 4 4.6V20h-3v-5.8c0-1.5-.6-2.4-1.9-2.4-1.1 0-1.8.8-2.1 1.6V20h-3z"/></svg>
+              <span><small>LinkedIn</small>savva-genchevskiy</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/savvagen" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-2.8 17.5c.4.1.6-.2.6-.5v-1.8c-2.5.5-3-1.2-3-1.2-.4-1-1-1.3-1-1.3-.9-.6 0-.6 0-.6 1 .1 1.5 1 1.5 1 .8 1.4 2.2 1 2.8.8.1-.6.3-1 .6-1.3-2-.2-4.1-1-4.1-4.4 0-1 .3-1.8.9-2.4-.1-.3-.4-1.2.1-2.4 0 0 .8-.3 2.5 1a8.6 8.6 0 0 1 4.5 0c1.7-1.3 2.5-1 2.5-1 .5 1.2.2 2.1.1 2.4.6.6.9 1.4.9 2.4 0 3.4-2.1 4.2-4.1 4.4.3.3.6.9.6 1.8v2.6c0 .3.2.6.6.5A9 9 0 0 0 12 3z"/></svg>
+              <span><small>GitHub</small>@savvagen</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>© <span id="year">2026</span> Savva Henchevskyi — Performance, Reliability &amp; Automation Engineering.</p>
+    <p class="footer-note">Built as a static page. No trackers, no frameworks.</p>
+  </div>
+</footer>
+
+<button class="to-top" id="to-top" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
