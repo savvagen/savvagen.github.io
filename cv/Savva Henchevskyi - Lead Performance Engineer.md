@@ -1,7 +1,7 @@
 **Sava Henchevskyi**  
 **Senior/Lead Performance Testing Engineer**
 
-|  Personal information: Born: 19 February 1992 Region: Odessa Tel.: \+380975475717 E-mail : [savva.genchevskiy@gmail.com](mailto:savva.genchevskiy@gmail.com) GitHub: [https://github.com/savvagen](https://github.com/savvagen) LinkedIn: [savva-genchevskiy-231947121](https://www.linkedin.com/in/savva-genchevskiy-231947121/)  |   ![][image1] |
+|  Personal information: Born: 19 February 1992 Region: Odessa Tel.: \+380975475717 E-mail : [savva.genchevskiy@gmail.com](mailto:savva.genchevskiy@gmail.com) GitHub: [https://github.com/savvagen](https://github.com/savvagen) LinkedIn: [savva-genchevskiy-231947121](https://www.linkedin.com/in/savva-henchevskyi-231947121/)  |   ![][image1] |
 | :---- | :---: |
 
 **Summary**![]()
@@ -46,8 +46,8 @@ Certified **Senior/Lead Performance Testing & Reliability Engineer** with over *
 | **Description**  | Healthcare industry product |
 | **Duration**  | 2 years |
 | **Project role**  | **Senior/Lead Performance Engineer** |
-| **Tools and technologies**  | K6, JavaScript, Azure, Kubernetes, InfluxDB, Prometheus, Tanos, Grafana, Elasticsearch, Kibana, Datadog, Docker, GitLab, GitHub Copilot, OpenAI Codex |
-| **Project responsibilities**  | Built Performance Engineering expertise and tests infrastructure from scratch using K6, GitLab, Kubernetes, Grafana Cloud, and InfluxDB2 for monitoring and alerting Accelerated test code and scenarios development using GitHub Copilot and OpenAI Codex Building Conventions and Rules for test generation with Generative AI (Github Copilot) Building performance test plans and test strategies for different domains and projects Technical Lead experience (team of 4 perf. engineers) and experience with interviewing and mentoring teammates, and established engineering best practices across multiple products Gathered and analyzed product SLAs and SLOs from Product Owners and Product Managers, covering the system with scenarios according to non-functional requirements Conducted knowledge sharing and coached QA, SRE, and development teams about performance testing practices Performed complex reporting, troubleshooting, and bottleneck research with Tanos, Grafana, Datadog, Elasticsearch, Kibana, and Sentry |
+| **Tools and technologies**  | K6, K6-browser, Playwright, JavaScript, Azure, Kubernetes, InfluxDB, Prometheus, Tanos, Grafana, Elasticsearch, Kibana, Datadog, Docker, GitLab, GitHub Copilot, OpenAI Codex |
+| **Project responsibilities**  | Built Performance Engineering expertise and test infrastructure from scratch using K6, GitLab, Kubernetes, Grafana Cloud, and InfluxDB2 for monitoring and alerting Accelerated test code and scenario development using GitHub Copilot and OpenAI Codex Established Conventions and Rules for test generation with Generative AI (GitHub Copilot) Writing and conducting E2E / Frontend (client-side) performance tests using K6-browser and Playwright Building performance test plans and test strategies for different domains and projects Technical Lead experience (team of 4 perf. engineers) and experience with interviewing and mentoring teammates, and established engineering best practices across multiple products Gathered and analyzed product SLAs and SLOs from Product Owners and Product Managers, covering the system with scenarios according to non-functional requirements Conducted knowledge sharing and coached QA, SRE, and development teams about performance testing practices Performed complex reporting, troubleshooting, and bottleneck research with Tanos, Grafana, Datadog, Elasticsearch, Kibana, and Sentry |
 
 | September 2021 \- August 2023 | Svitla Systems (Software Development Company) |
 | :---- | ----: |
@@ -57,8 +57,8 @@ Certified **Senior/Lead Performance Testing & Reliability Engineer** with over *
 | **Description**  | Logistics enterprise project focused on package delivery, including senders, drivers, warehouse, mobile, and web applications |
 | **Duration**  | 1 year |
 | **Project role**  | **Senior Performance Engineer** |
-| **Tools and technologies**  | Locust, BlazeMeter, JMeter, AWS, Kubernetes, ElasticCache, Docker, CircleCI, NewRelic, Redash, Prometheus, Grafana |
-| **Project responsibilities**  | Built the performance testing process and infrastructure on AWS using Locust, Prometheus, and Grafana JMeter tests (BlazeMeter) migration to Locust cluster Executed regular performance tests and reporting Deployed load agents and platform into AWS EKS cluster Frontend and backend metrics monitoring with Prometheus and Grafana |
+| **Tools and technologies**  | Locust, BlazeMeter, JMeter, AWS, Kubernetes, ElasticCache, Docker, CircleCI, NewRelic, Redash, Sentry, Prometheus, Grafana |
+| **Project responsibilities**  | Built the performance testing process and infrastructure form scratch on AWS using Locust, Prometheus, and Grafana Migration of JMeter Tests  (BlazeMeter) to the Locust distributed platform Executed regular Load, Stress, Capacity tests, reporting and troubleshooting of complex infrastructure problems Deployed load agents and platform into AWS EKS cluster Frontend and Backend metrics monitoring and observability using Prometheus, Grafana, and Sentry. |
 
 | Project | GlobalID |
 | :---- | :---- |
@@ -77,7 +77,7 @@ Certified **Senior/Lead Performance Testing & Reliability Engineer** with over *
 | **Duration**  | 1 year 5 months |
 | **Project role**  | **Senior QA Automation/Performance Engineer** |
 | **Tools and technologies**  | Gatling, Sitespeed.IO, GitLab, Prometheus, Grafana, Sentry, Jenkins |
-| **Project responsibilities**  | Built the performance testing process and infrastructure on GitLab using Gatling, Sitespeed.IO, Prometheus, and Grafana Planned regular performance test experiments on different environments including production Executed regular front-end and back-end performance tests and reporting Monitored application and client-side metrics with Prometheus, Grafana, and Sentry Helped DevOps maintain GitLab and GitLab Runners infrastructure and troubleshoot infrastructure problems Helped engineers and DevOps build and update monitoring and logging solutions, and assisted with infrastructure monitoring and troubleshooting Deployed and configured third-party services and CI/CD platforms including Jenkins and Sentry (on-premises)  |
+| **Project responsibilities**  | Built the performance testing process and infrastructure on GitLab using Gatling, Sitespeed.IO, Prometheus, and Grafana Built test strategies and planned regular performance test experiments on different environments, including production Executed regular front-end and back-end performance tests and reporting Application and client-side metrics monitoring with Prometheus, Grafana, and Sentry Helped DevOps maintain GitLab and GitLab Runners infrastructure and troubleshoot infrastructure problems Helped engineers and DevOps build and update monitoring and logging solutions, and assisted with infrastructure monitoring and troubleshooting Deployed and configured third-party services and CI/CD platforms including Jenkins and Sentry (on-premises)  |
 
 | May 2019 \- April 2020 | Lohika (Software Development Company) |
 | :---- | ----: |
@@ -88,7 +88,7 @@ Certified **Senior/Lead Performance Testing & Reliability Engineer** with over *
 | **Duration**  | 1 year |
 | **Project role**  | **QA Automation/Performance Engineer** |
 | **Tools and technologies**  | Locust, C\#, .NET, Groovy, Kubernetes, Prometheus, Grafana, Jenkins, RestSharp, NUnit, Allure, OpenAPI-generator |
-| **Project responsibilities**  | Analyzed NFRs and created performance test strategies/plans Built custom distributed performance testing platform using Locust, K8S, Prometheus, and Grafana Executed performance tests and deployed load agents to Kubernetes using Jenkins Built and maintained custom Jenkins pipelines in Groovy using  Jenkins shared library Supported and helped back-end engineers run their own custom performance testing benchmarks Developed and maintained API tests framework using C\# .NET, RestSharp, NUnit, and Allure from scratch Generated API clients using OpenAPI-generator |
+| **Project responsibilities**  | Analyzed NFRs and created performance test strategies/plans Built custom distributed performance testing platform using Locust, K8S, Prometheus, and Grafana Executed performance tests and deployed load agents to Kubernetes using Jenkins Built and maintained custom Jenkins pipelines in Groovy using  Jenkins shared library Supported and helped back-end engineers run their own custom performance testing benchmarks Developed and maintained API test framework using C\# .NET, RestSharp, NUnit, and Allure from scratch Generated API clients using OpenAPI-generator |
 
 | February 2018 –  May 2019 | Cloudbees (Software Development Company) |
 | :---- | ----: |
@@ -99,18 +99,18 @@ Certified **Senior/Lead Performance Testing & Reliability Engineer** with over *
 | **Duration**  | 1 year 4 months |
 | **Project role**  | **QA Engineer** |
 | **Tools and technologies**  | Groovy, Kotlin, Docker Swarm, Kubernetes, Google Cloud, AWS, OpenShift, Ansible, Terraform, Spock, TestNG, GroovyHttp, Selenide, Allure, Selenoid |
-| **Project responsibilities**  | Wrote test documentation and test cases for platform plugins Performed manual testing activities and configured environments and clusters for deployment platform plugins for Docker Swarm, Kubernetes, Google Cloud, AWS, OpenShift, Ansible, and Terraform Wrote automated integration tests for platform container plugins using Groovy, Spock, TestNG, and GroovyHttp client Ran and reported regular integration test regressions using CloudBees Flow as CI/CD Wrote platform end-to-end tests using Kotlin, Selenide, TestNG, Allure, and Selenoid |
+| **Project responsibilities**  | Conducting Test Documentation, Test Strategies, Test Plans, and test cases for the “container plugins” testing process Performed manual (exploratory, acceptance, usability, Ui/UX) testing activities with test environment and infrastructure preparation for deployment platform plugins for Docker Swarm, Kubernetes, Google Cloud (GKE), AWS (ECS, EC2, EKS), OpenShift, Ansible, and Terraform Test Automation process setup from scratch and integration testing for platform container plugins using Groovy, GroovyHttp lib,  Spock, Selenide, GEB, TestNG, Allure SaaS platform E2E test Automation using Kotlin, Selenide, TestNG, Allure Ran and reported regular integration test regressions using CloudBees Flow CI/CD platform Conducted knowledge sharing sessions (Docker, K8S, Test Automation), mentored junior team members and shared good practices and success stories across the whole organization |
 
 | July 2017 – January 2018 | Intcom OOO (E-commerce Company) |
 | :---- | ----: |
 
 | Project | Gepur.com |
 | :---- | :---- |
-| **Description**  | Website for a Ukrainian textile brand |
+| **Description**  | Ukrainian retail and e-commerce brand |
 | **Duration**  | 7 months |
 | **Project role**  | **QA Automation Engineer** |
-| **Tools and technologies**  | Java, Selenide, Selenoid, Allure, RestAssured, Jenkins |
-| **Project responsibilities**  | Performed test planning and manual testing for mobile and web applications Wrote automated end-to-end tests using Java, Selenide, Selenoid, and Allure Wrote API integration tests using RestAssured Ran daily regression tests using Jenkins |
+| **Tools and technologies**  | Java, Selenide, Selenoid, Allure, RestAssured, Jenkins, TestRail, BrowserStack, Zephyr |
+| **Project responsibilities**  | Building Test Strategy and Test Plans and QA process setup from scratch for mobile and web applications Performed test planning and manual Acceptance, Exploratory, Regression, Security, Usability, UI/UX testing for mobile and web platforms Performed Automated E2E test regressions with  Java, Selenide, Selenoid, and Allure Conducting API integration tests using Java, RestAssured, Swagger, and Json2Pojo. Ran daily regression suites using Jenkins Test Documentation Maintenance using TestRail, Zephir |
 
 | May 2016 – July 2017 | Singree (Web Development/Digital Marketing Services) |
 | :---- | ----- |
@@ -119,7 +119,7 @@ Certified **Senior/Lead Performance Testing & Reliability Engineer** with over *
 | **Duration**  | 1 year |
 | **Project role**  | **QA Automation/Manual Engineer** |
 | **Tools and technologies**  | Python, Java, Selenium, Unittest, JUnit, TestNG |
-| **Project responsibilities**  | Performed manual testing for different web and mobile applications Wrote test plans, test cases, and checklists Wrote automated tests using Selenium with Python and Java, Unittest, JUnit, and TestNG |
+| **Project responsibilities**  | Quality Assurance process setup from scratch for web and mobile applications. Performing manual and automated regression, exploratory, ad-hoc, UI/UX, Usability, Frontend Performance, and security testing for different web and mobile applications Testing mobile applications on cloud platforms: BrowserStack, Sauce Labs, Kobiton. Building Test Plans and Test Strategies, analytics, reporting, and test-case management for different products Wrote test plans, test cases, and checklists Conducting Test Automation using Selenium, JUnit, and TestNG, Jenkins, Allure, Python, and the Unittest framework. |
 
 **Certifications/Education/Language/Location**
 
