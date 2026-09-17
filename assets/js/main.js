@@ -200,6 +200,22 @@
     });
   }
 
+  // ======================== Contact heading switcher ========================
+  (function initContactHeadingSwitcher() {
+    const headings = document.querySelectorAll('.contact-heading');
+    if (headings.length < 2) return;
+
+    let currentIndex = 0;
+
+    function switchHeading() {
+      headings[currentIndex].classList.remove('active');
+      currentIndex = (currentIndex + 1) % headings.length;
+      headings[currentIndex].classList.add('active');
+    }
+
+    setInterval(switchHeading, 5000);
+  })();
+
   /* ---------------------------------------------------------
      Footer year
      --------------------------------------------------------- */

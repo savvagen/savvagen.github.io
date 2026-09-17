@@ -682,13 +682,57 @@ svg { width: 100%; height: 100%; fill: none; stroke: currentColor; stroke-width:
   border: 1px solid var(--border);
   border-radius: var(--r-xl);
   background:
+          radial-gradient(600px 300px at 0% 0%, var(--accent-soft), transparent 70%),
+          var(--surface);
+  box-shadow: var(--shadow-md);
+}
+
+.contact-heading-switcher {
+  position: relative;
+  min-height: 2.6em;
+  margin-bottom: 3.5rem;
+}
+
+.contact-heading {
+  font-size: clamp(1.6rem, 3.4vw, 2.2rem);
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity .5s ease, transform .5s ease;
+}
+
+.contact-heading.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/*.contact-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: center;
+  padding: 2.8rem;
+  border: 1px solid var(--border);
+  border-radius: var(--r-xl);
+  background:
     radial-gradient(600px 300px at 0% 0%, var(--accent-soft), transparent 70%),
     var(--surface);
   box-shadow: var(--shadow-md);
+}*/
+.contact-copy h2 {
+  font-size: clamp(1.6rem, 3.4vw, 2.2rem);
+  margin-bottom: .7rem;
 }
-.contact-copy h2 { font-size: clamp(1.6rem, 3.4vw, 2.2rem); margin-bottom: .7rem; }
 
-.contact-list { display: grid; gap: .6rem; }
+.contact-list {
+  display: grid;
+  gap: .6rem;
+}
+
 .contact-list a {
   display: flex; align-items: center; gap: .9rem;
   padding: .85rem 1.1rem;
